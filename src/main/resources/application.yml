@@ -1,0 +1,15 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
